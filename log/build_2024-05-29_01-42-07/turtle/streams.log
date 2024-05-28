@@ -1,0 +1,30 @@
+[4.107s] Invoking command in '/root/ros2_ws/src/turtle': PYTHONPATH=/root/ros2_ws/build/turtle/prefix_override:/root/ros2_ws/install/turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle build --build-base /root/ros2_ws/build/turtle/build install --record /root/ros2_ws/build/turtle/install.log --single-version-externally-managed install_data
+[4.318s] Traceback (most recent call last):
+[4.318s]   File "/root/ros2_ws/src/turtle/setup.py", line 1, in <module>
+[4.319s]     from setuptools import find_packages, setup
+[4.319s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 10, in <module>
+[4.325s]     import distutils.core
+[4.326s]   File "/usr/lib/python3.10/distutils/core.py", line 16, in <module>
+[4.330s]     from distutils.dist import Distribution
+[4.331s]   File "/usr/lib/python3.10/distutils/dist.py", line 18, in <module>
+[4.369s]     from distutils.fancy_getopt import FancyGetopt, translate_longopt
+[4.370s]   File "/usr/lib/python3.10/distutils/fancy_getopt.py", line 11, in <module>
+[4.372s]     import sys, string, re
+[4.373s]   File "/usr/lib/python3.10/string.py", line 146, in <module>
+[4.378s]     Template.__init_subclass__()
+[4.378s]   File "/usr/lib/python3.10/string.py", line 85, in __init_subclass__
+[4.379s]     cls.pattern = _re.compile(pattern, cls.flags | _re.VERBOSE)
+[4.379s]   File "/usr/lib/python3.10/re.py", line 251, in compile
+[4.387s]     return _compile(pattern, flags)
+[4.388s]   File "/usr/lib/python3.10/re.py", line 303, in _compile
+[4.388s]     p = sre_compile.compile(pattern, flags)
+[4.388s]   File "/usr/lib/python3.10/sre_compile.py", line 792, in compile
+[4.398s]     code = _code(p, flags)
+[4.399s]   File "/usr/lib/python3.10/sre_compile.py", line 631, in _code
+[4.400s]     _compile(code, p.data, flags)
+[4.401s]   File "/usr/lib/python3.10/sre_compile.py", line 225, in _compile
+[4.401s]     _compile(code, av, flags)
+[4.402s]   File "/usr/lib/python3.10/sre_compile.py", line 182, in _compile
+[4.403s]     emit((group-1)*2)
+[4.403s] KeyboardInterrupt
+[4.435s] Invoked command in '/root/ros2_ws/src/turtle' returned '-2': PYTHONPATH=/root/ros2_ws/build/turtle/prefix_override:/root/ros2_ws/install/turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle build --build-base /root/ros2_ws/build/turtle/build install --record /root/ros2_ws/build/turtle/install.log --single-version-externally-managed install_data

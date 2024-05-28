@@ -1,7 +1,5 @@
-/root/ros2_ws/install/turtle/lib/python3.10/site-packages/turtle/turtle_controller.py
 /root/ros2_ws/install/turtle/lib/python3.10/site-packages/turtle/turtle_node.py
 /root/ros2_ws/install/turtle/lib/python3.10/site-packages/turtle/__init__.py
-/root/ros2_ws/install/turtle/lib/python3.10/site-packages/turtle/__pycache__/turtle_controller.cpython-310.pyc
 /root/ros2_ws/install/turtle/lib/python3.10/site-packages/turtle/__pycache__/turtle_node.cpython-310.pyc
 /root/ros2_ws/install/turtle/lib/python3.10/site-packages/turtle/__pycache__/__init__.cpython-310.pyc
 /root/ros2_ws/install/turtle/share/ament_index/resource_index/packages/turtle

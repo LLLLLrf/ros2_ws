@@ -1,0 +1,24 @@
+[2.672s] Invoking command in '/root/ros2_ws/src/turtle': PYTHONPATH=/root/ros2_ws/build/turtle/prefix_override:/root/ros2_ws/install/turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle build --build-base /root/ros2_ws/build/turtle/build install --record /root/ros2_ws/build/turtle/install.log --single-version-externally-managed install_data
+[3.815s] running egg_info
+[3.818s] writing ../../build/turtle/turtle.egg-info/PKG-INFO
+[3.819s] writing dependency_links to ../../build/turtle/turtle.egg-info/dependency_links.txt
+[3.819s] writing entry points to ../../build/turtle/turtle.egg-info/entry_points.txt
+[3.820s] writing requirements to ../../build/turtle/turtle.egg-info/requires.txt
+[3.820s] writing top-level names to ../../build/turtle/turtle.egg-info/top_level.txt
+[3.829s] reading manifest file '../../build/turtle/turtle.egg-info/SOURCES.txt'
+[3.837s] writing manifest file '../../build/turtle/turtle.egg-info/SOURCES.txt'
+[3.837s] running build
+[3.838s] running build_py
+[3.838s] copying turtle/turtle_node.py -> /root/ros2_ws/build/turtle/build/lib/turtle
+[3.838s] running install
+[3.838s] running install_lib
+[3.840s] copying /root/ros2_ws/build/turtle/build/lib/turtle/turtle_node.py -> /root/ros2_ws/install/turtle/lib/python3.10/site-packages/turtle
+[3.841s] byte-compiling /root/ros2_ws/install/turtle/lib/python3.10/site-packages/turtle/turtle_node.py to turtle_node.cpython-310.pyc
+[3.846s] running install_data
+[3.847s] running install_egg_info
+[3.850s] removing '/root/ros2_ws/install/turtle/lib/python3.10/site-packages/turtle-0.0.0-py3.10.egg-info' (and everything under it)
+[3.851s] Copying ../../build/turtle/turtle.egg-info to /root/ros2_ws/install/turtle/lib/python3.10/site-packages/turtle-0.0.0-py3.10.egg-info
+[3.854s] running install_scripts
+[3.915s] Installing turtle_node script to /root/ros2_ws/install/turtle/lib/turtle
+[3.916s] writing list of installed files to '/root/ros2_ws/build/turtle/install.log'
+[4.005s] Invoked command in '/root/ros2_ws/src/turtle' returned '0': PYTHONPATH=/root/ros2_ws/build/turtle/prefix_override:/root/ros2_ws/install/turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle build --build-base /root/ros2_ws/build/turtle/build install --record /root/ros2_ws/build/turtle/install.log --single-version-externally-managed install_data

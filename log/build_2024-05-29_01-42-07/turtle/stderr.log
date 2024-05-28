@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/root/ros2_ws/src/turtle/setup.py", line 1, in <module>
+    from setuptools import find_packages, setup
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 10, in <module>
+    import distutils.core
+  File "/usr/lib/python3.10/distutils/core.py", line 16, in <module>
+    from distutils.dist import Distribution
+  File "/usr/lib/python3.10/distutils/dist.py", line 18, in <module>
+    from distutils.fancy_getopt import FancyGetopt, translate_longopt
+  File "/usr/lib/python3.10/distutils/fancy_getopt.py", line 11, in <module>
+    import sys, string, re
+  File "/usr/lib/python3.10/string.py", line 146, in <module>
+    Template.__init_subclass__()
+  File "/usr/lib/python3.10/string.py", line 85, in __init_subclass__
+    cls.pattern = _re.compile(pattern, cls.flags | _re.VERBOSE)
+  File "/usr/lib/python3.10/re.py", line 251, in compile
+    return _compile(pattern, flags)
+  File "/usr/lib/python3.10/re.py", line 303, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "/usr/lib/python3.10/sre_compile.py", line 792, in compile
+    code = _code(p, flags)
+  File "/usr/lib/python3.10/sre_compile.py", line 631, in _code
+    _compile(code, p.data, flags)
+  File "/usr/lib/python3.10/sre_compile.py", line 225, in _compile
+    _compile(code, av, flags)
+  File "/usr/lib/python3.10/sre_compile.py", line 182, in _compile
+    emit((group-1)*2)
+KeyboardInterrupt

@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.003088] (turtle) JobQueued: {'identifier': 'turtle', 'dependencies': OrderedDict()}
+[0.004182] (turtle) JobStarted: {'identifier': 'turtle'}
+[0.085166] (-) TimerEvent: {}
+[0.245245] (-) TimerEvent: {}
+[0.335769] (turtle) JobEnded: {'identifier': 'turtle', 'rc': 0}
+[0.339277] (-) EventReactorShutdown: {}

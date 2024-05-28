@@ -13,5 +13,4 @@ test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
 turtle/__init__.py
-turtle/turtle_controller.py
 turtle/turtle_node.py
