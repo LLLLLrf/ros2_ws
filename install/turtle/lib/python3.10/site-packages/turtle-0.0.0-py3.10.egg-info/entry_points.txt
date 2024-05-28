@@ -1,0 +1,3 @@
+[console_scripts]
+turtle_node = turtle.turtle_node:main
+
